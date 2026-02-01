@@ -25,8 +25,6 @@ button.addEventListener("click", () => {
   button.style.left = Math.random() * 200 + "px";
   button.style.top = Math.random() * 200 + "px";
 
-  if (score === 10) {
-    alert("Level Up 🔥");
   }
 });
 
@@ -42,3 +40,4 @@ function startTimer() {
     }
   }, 1000);
 }
+
