@@ -1,0 +1,38 @@
+h1{
+    color:aquamarine;
+    
+}
+body{
+    text-align:center;
+    font-family: "'Courier New', Courier, monospace";
+    background: #0f172a;
+    color:white;
+    height: 100vh;
+    width: 100%;
+
+   
+}
+button{
+    padding: 15px,25px;
+    font-size: 18px;
+    cursor:pointer;
+}
+#clickbtn{
+    background: red;
+    color: green;
+    
+    position: relative;
+    
+    
+}
+#bgvideo{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100vw;
+    object-fit:cover;
+    z-index:-1;
+    height: 100vh;
+}
+
+
