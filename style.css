@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+
 h1{
     color:aquamarine;
-    font-size:1.6 rem;
+    margin-bottom: 15px;
     
 }
 body{
@@ -14,21 +22,25 @@ body{
    
 }
 button{
-    padding: 15px ,25px;
-    font-size: 18px;
+    padding: 14px;
+    font-size: 1.1rem;
     cursor:pointer;
-    width:100%;
-    
+    border:0cqmin
+    background:#00ff88;
+
 }
 #clickbtn{
-    background: red;
+
     color: green;
     
     position: relative;
     
     
 }
-
-
-
-
+.game{
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    background: #000080;
+    border-radius: 12px;;
+}
